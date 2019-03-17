@@ -27,4 +27,9 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.divide(9, 3), 3);
 	}
 	
+	public void testSquare() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.square(5), 25);
+	}
+	
 }
